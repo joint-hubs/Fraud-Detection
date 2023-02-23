@@ -1,0 +1,12 @@
+pandas
+numpy
+plotnine
+scikit-learn
+seaborn
+matplotlib
+graphviz
+xgboost
+dalex
+scipy
+requests
+beautifulsoup4
