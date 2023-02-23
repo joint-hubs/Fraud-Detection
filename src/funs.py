@@ -112,10 +112,10 @@ def dataPreparation(all_trxns_path = "all_trxns.csv", exchange_rates_path = "exc
     
     # Data Collection
     # Raw Data
-    all_trxns = pd.read_csv("all_trxns.csv", dtype={'counterparty': str})
+    all_trxns = pd.read_csv(all_trxns_path, dtype={'counterparty': str})
 
     # Exchange Rates -> more info in currencies.ipynb
-    currency_rates = pd.read_csv("exchange_rates.csv", header=None, names=["ccy", "date", "rate"])
+    currency_rates = pd.read_csv(exchange_rates_path, header=None, names=["ccy", "date", "rate"])
     
     # Data Cleaning and Preprocessing
 
