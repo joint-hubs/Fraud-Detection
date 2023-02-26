@@ -1,6 +1,8 @@
 # Fraud-Detection
 The aim of this project is to build a model that can accurately identify fraudulent or suspicious transactions in financial datasets, which is crucial for ensuring financial security and reducing fraudulent activities.
 
+<br>
+
 ## Dataset
 
 This dataset contains information on transactions made by various customers with various counter parties. Each row in the dataset represents a single transaction and contains the following variables:
@@ -24,15 +26,11 @@ Download the raw file from Google Drive: https://drive.google.com/drive/folders/
 
 This project requires `Python 3.10.5` or later. You can download Python from the official website: https://www.python.org/downloads/
 
-<br>
-
 ### Installing Dependencies
 
 All required dependencies for this project are listed in the requirements.txt file. To install these dependencies, run the following command in your terminal:
 
 > pip install -r requirements.txt
-
-<br>
 
 ### Virtual Environment
 
