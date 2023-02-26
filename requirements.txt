@@ -10,3 +10,4 @@ dalex
 scipy
 requests
 beautifulsoup4
+jupyter

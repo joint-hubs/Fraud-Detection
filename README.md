@@ -28,27 +28,42 @@ This project requires `Python 3.10.5` or later. You can download Python from the
 
 ### Installing Dependencies
 
-All required dependencies for this project are listed in the requirements.txt file. To install these dependencies, run the following command in your terminal:
+All required dependencies for this project are listed in the `requirements.txt` file. To install these dependencies, run the following command in your terminal:
 
 > pip install -r requirements.txt
 
 ### Virtual Environment
 
-It is recommended to use a virtual environment to manage dependencies for your project. To create and activate a virtual environment in Python, follow these steps:
+It is recommended to use a virtual environment to manage dependencies for your project. By using a virtual environment, you can ensure that the dependencies for this project do not interfere with other Python projects on your system. To create and activate a virtual environment in Python, follow these steps:
 
 1. Open a terminal and navigate to the root directory of the project
 
-2. Run the following command to create a virtual environment named venv:
-> python3 -m venv venv
+2. Run the following command to create a virtual environment named env:
 
-Note: python3 may need to be replaced with python depending on your system configuration
+    for Unix/macOS
+    > python3 -m venv env
+
+    or for Windows
+    > py -m venv env
+
 
 3. Activate the virtual environment with the following command:
-> source venv/bin/activate
 
-4. Install the dependencies as described above
+    for Unix/macOS
+    > source env/bin/activate
 
-By using a virtual environment, you can ensure that the dependencies for this project do not interfere with other Python projects on your system.
+    or for Windows
+    > .\env\Scripts\activate
+
+    or
+    > env\Scripts\activate.bat
+
+4. Install the dependencies
+
+    > pip install -r requirements.txt
+
+5. Run Jupyter notebook with command:
+    > jupyter notebook
 
 <br>
 
@@ -63,6 +78,7 @@ The main files in the repository are:
 - `src/2. Analysis.ipynb`: This notebook contains an initial data exploration and analysis to gain an understanding of the data. It includes steps such as identifying the number of fraud cases, performing a chi-squared test to identify variables associated with fraud, and using visualization techniques to identify factors within variables associated with fraud. One-hot encoding and ANOVA F-test techniques are also applied to the data in this notebook.
 - `src/3. Tree Based Models.ipynb`: This notebook builds and explains the decision tree and XGBoost models. The notebook includes steps such as performance evaluation, feature importances, and plotting the decision tree.
 - `src/4. Linear Programming Model.ipynb`: This notebook contains an algorithm based on dictionaries and performs a series of steps to find the best thresholds for expected fraud probability, standard deviation flags, and quantile flags. The notebook evaluates the model using the training and test data sets.
+- `src/5. Combined Model.ipynb`: contains a two-layered fraud detection model that combines an algorithm based on dictionaries with an XGBoost model. 
 
 The project's workflow is shown in the following diagram:
 
