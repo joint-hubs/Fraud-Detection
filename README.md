@@ -1,7 +1,5 @@
-# Fraud-Detection
+# Fraud Prediction
 The aim of this project is to build a model that can accurately identify fraudulent or suspicious transactions in financial datasets, which is crucial for ensuring financial security and reducing fraudulent activities.
-
-<br>
 
 ## Dataset
 
@@ -18,9 +16,6 @@ This dataset contains information on transactions made by various customers with
 - `amount`: The amount of money involved in the transaction (in the currency specified in the currency variable).
 
 Download the raw file from Google Drive: https://drive.google.com/drive/folders/1qXdsZYb3NNhb3V_ABAoy0wAO0EZyIU-S
-
-
-<br>
 
 ## Requirements
 
