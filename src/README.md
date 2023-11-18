@@ -13,7 +13,7 @@ The main files in the repository are:
 
 The project's workflow is shown in the following diagram:
 
-![](img/flow_diagram.png)
+![](../img/flow_diagram.png)
 
 ## Dataset
 
