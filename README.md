@@ -1,4 +1,4 @@
-# Fraud Prediction 
+# Fraud Prediction R&D
 The aim of this Proof of Concept (PoC) project is to build a model capable of accurately identifying fraudulent or suspicious transactions within financial datasets. This project serves as research proof of work, with models documented in corresponding Python notebooks.
 
 ## Results
