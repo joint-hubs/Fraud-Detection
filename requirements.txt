@@ -11,3 +11,4 @@ scipy
 requests
 beautifulsoup4
 jupyter
+nbconvert
