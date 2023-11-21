@@ -25,7 +25,7 @@ The project adopts a comprehensive analytical approach, leveraging various Data 
 
 - Tree-Based Models: Strong in feature importance analysis but less consistent in True Positive identification. Expanding the training dataset could improve accuracy.
 
-- Dictionary-Based Model: Exhibits a higher True Positive detection rate, crucial for fraud detection, at the expense of overall accuracy compared to tree-based models.
+- Dictionary-Based Model: Low accuracy, it could be used as feature engineering algorithm to enhance the data. 
 
 - Optimization and Robustness: The project opens avenues for further optimization, including threshold adjustments and the potential adoption of adaptive, Reinforcement Learning techniques.
 
