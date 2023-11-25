@@ -19,7 +19,7 @@ The project adopts a comprehensive analytical approach, leveraging various Data 
 
 - Dictionary-Based Approach: A custom Dictionary-Based Model using transactional metadata and statistical metrics for dynamic fraud detection.
 
-- Combined Model: A sophisticated ensemble model that merges the strengths of tree-based and dictionary-based methods to enhance overall detection accuracy.
+- Combined Model: An ensemble model that merges the strengths of tree-based and dictionary-based methods to enhance overall detection accuracy.
 
 ### Key Insights and Findings
 
